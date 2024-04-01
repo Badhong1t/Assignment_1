@@ -1,0 +1,112 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+/* Font styling section starts here */
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 1200;
+    font-style: normal;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.handlee-regular {
+    font-family: "Handlee", cursive;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+/* Font styling section ends here */
+
+.card-container{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p-card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: #f7f7f7;
+    text-align: center;
+    box-shadow: 5px 5px 20px #c9c9c7;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.4s;
+
+}
+
+.p-card:hover{
+
+    box-shadow: 5px 5px 30px #403f3f;
+
+}
+
+.image{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+
+}
+
+h2{
+
+    color: #516263;
+
+}
+
+.description{
+
+    font-size: 18px;
+    text-align: center;
+    color: #797d7d;
+
+}
+
+.contact a{
+
+    color: #c9170a;
+    transition: all 0.3s;
+
+}
+
+.contact{
+
+    transition: all 0.2s;
+
+}
+
+.contact:hover{
+
+    transform: scale(1.1,1.1);
+
+}
+
+.contact a:hover{
+
+    color: blue;
+    cursor: pointer;
+
+}
